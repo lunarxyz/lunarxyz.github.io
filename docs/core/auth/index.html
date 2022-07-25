@@ -7,7 +7,7 @@
     <meta name="description" content="The JS-SDK of Lunarxyz App, provides simple APIs to operate.">
     <link rel="stylesheet" href="/assets/style.e0b4f92a.css">
     <link rel="modulepreload" href="/assets/app.2e99208e.js">
-    <link rel="modulepreload" href="/assets/core_auth_index.md.c6a8df05.lean.js">
+    <link rel="modulepreload" href="/assets/core_auth_index.md.5d19cfc5.lean.js">
     
     <script>(()=>{const e=localStorage.getItem("vitepress-theme-appearance"),a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
   </head>
@@ -87,7 +87,7 @@
 <span class="line"><span style="color:#A6ACCD;">  </span><span style="color:#F07178;">phoneNumber</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> phoneNumber</span><span style="color:#89DDFF;">.</span><span style="color:#A6ACCD;">value</span><span style="color:#89DDFF;">,</span></span>
 <span class="line"><span style="color:#89DDFF;">}</span><span style="color:#A6ACCD;">)</span></span>
 <span class="line"><span style="color:#676E95;font-style:italic;">// {</span></span>
-<span class="line"><span style="color:#676E95;font-style:italic;">//   &quot;token&quot;: &quot;Bearer 58f709ea-fd6d-45a0-85fa-889e93a5bc36&quot;,</span></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">//   &quot;token&quot;: &quot;Bearer 58f7*********************bc36&quot;,</span></span>
 <span class="line"><span style="color:#676E95;font-style:italic;">//   &quot;phoneNumber&quot;: &quot;13800138000&quot;</span></span>
 <span class="line"><span style="color:#676E95;font-style:italic;">// }</span></span>
 <span class="line"></span></code></pre></div><h2 id="autologin" tabindex="-1">autoLogin <a class="header-anchor" href="#autologin" aria-hidden="true">#</a></h2><p>自动登录，会自动执行 <code>getToken</code> -&gt; <code>login</code> -&gt; <code>register</code> 等一系列流程。</p><p>如果其中有一个流程成功，则提前返回登录信息。</p><p>如果三个流程都失败，则返回空的登录信息，可以通过 <code>isOk</code> 来判断是否成功。</p><ul><li>Type Declarations:</li></ul><div class="language-ts"><span class="copy"></span><pre><code><span class="line"><span style="color:#676E95;font-style:italic;">/**</span></span>
@@ -145,7 +145,7 @@
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;username&quot;: &quot;13800138000&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;phoneNumber&quot;: &quot;13800138000&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;hasPassword&quot;: false,</span></span>
-<span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;token&quot;: &quot;Bearer f3e7d********************0ce9&quot;,</span></span>
+<span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;token&quot;: &quot;Bearer f3e7*********************0ce9&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;refreshToken&quot;: &quot;&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;expiresIn&quot;: 0,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;expiresIime&quot;: 0</span></span>
@@ -191,7 +191,7 @@
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;username&quot;: &quot;13800138000&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;phoneNumber&quot;: &quot;13800138000&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;hasPassword&quot;: false,</span></span>
-<span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;token&quot;: &quot;Bearer f3e7d********************0ce9&quot;,</span></span>
+<span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;token&quot;: &quot;Bearer f3e7*********************0ce9&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;refreshToken&quot;: &quot;&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;expiresIn&quot;: 0,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;expiresIime&quot;: 0</span></span>
@@ -259,7 +259,7 @@
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;username&quot;: &quot;13800138000&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;phoneNumber&quot;: &quot;13800138000&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;hasPassword&quot;: true,</span></span>
-<span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;token&quot;: &quot;Bearer f3e7d********************0ce9&quot;,</span></span>
+<span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;token&quot;: &quot;Bearer f3e7*********************0ce9&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;refreshToken&quot;: &quot;a5a8f144-6806-474c-bd7c-7cb7ca550b9f&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;expiresIn&quot;: 43199,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;expiresIime&quot;: 1658695221652</span></span>
@@ -328,7 +328,7 @@
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;username&quot;: &quot;13800138000&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;phoneNumber&quot;: &quot;13800138000&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;hasPassword&quot;: true,</span></span>
-<span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;token&quot;: &quot;Bearer f3e7d********************0ce9&quot;,</span></span>
+<span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;token&quot;: &quot;Bearer f3e7*********************0ce9&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;refreshToken&quot;: &quot;a5a8f144-6806-474c-bd7c-7cb7ca550b9f&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;expiresIn&quot;: 43199,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;expiresIime&quot;: 1658695221652</span></span>
@@ -364,7 +364,7 @@
 <span class="line"><span style="color:#F07178;">  </span><span style="color:#A6ACCD;">console</span><span style="color:#89DDFF;">.</span><span style="color:#82AAFF;">log</span><span style="color:#F07178;">(</span><span style="color:#A6ACCD;">e</span><span style="color:#F07178;">)</span></span>
 <span class="line"><span style="color:#89DDFF;">}</span><span style="color:#A6ACCD;">)</span></span>
 <span class="line"></span></code></pre></div></div></div></main><footer class="VPDocFooter" data-v-79ca2460 data-v-04568844><div class="edit-info" data-v-04568844><!----><!----></div><div class="prev-next" data-v-04568844><div class="pager" data-v-04568844><a class="pager-link prev" href="/guide/faq.html" data-v-04568844><span class="desc" data-v-04568844>Previous page</span><span class="title" data-v-04568844>常见问题</span></a></div><div class="has-prev pager" data-v-04568844><a class="pager-link next" href="/core/sms/" data-v-04568844><span class="desc" data-v-04568844>Next page</span><span class="title" data-v-04568844>useSMS</span></a></div></div></footer><!--[--><!--]--></div></div></div></div></div><footer class="VPFooter has-sidebar" data-v-6b5fd0a9 data-v-5b331722><div class="container" data-v-5b331722><p class="message" data-v-5b331722>Released under the MIT License.</p><p class="copyright" data-v-5b331722>Copyright © 2022-PRESENT Lunarxyz FE-Team</p></div></footer><!--[--><!--]--></div></div>
-    <script>__VP_HASH_MAP__ = JSON.parse("{\"core_auth_index.md\":\"c6a8df05\",\"core_sms_index.md\":\"6cd53b2e\",\"env_index.md\":\"4d950cf1\",\"guide_faq.md\":\"4aef8cb5\",\"guide_index.md\":\"f4168188\",\"index.md\":\"edbfd94b\",\"network_axios_index.md\":\"4eef8d5b\",\"utils_data_index.md\":\"961b5764\",\"utils_lodash_index.md\":\"45e82473\",\"utils_random_index.md\":\"8ff46de0\",\"utils_regexp_index.md\":\"82989cb6\",\"utils_storage_index.md\":\"6a419187\"}")</script>
+    <script>__VP_HASH_MAP__ = JSON.parse("{\"core_auth_index.md\":\"5d19cfc5\",\"core_sms_index.md\":\"6cd53b2e\",\"env_index.md\":\"4d950cf1\",\"guide_faq.md\":\"4aef8cb5\",\"guide_index.md\":\"f4168188\",\"index.md\":\"edbfd94b\",\"network_axios_index.md\":\"4eef8d5b\",\"utils_data_index.md\":\"961b5764\",\"utils_lodash_index.md\":\"45e82473\",\"utils_random_index.md\":\"8ff46de0\",\"utils_regexp_index.md\":\"82989cb6\",\"utils_storage_index.md\":\"6a419187\"}")</script>
     <script type="module" async src="/assets/app.2e99208e.js"></script>
     
   </body>

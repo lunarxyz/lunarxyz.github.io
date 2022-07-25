@@ -73,7 +73,7 @@ import{_ as s,o as n,c as a,a as l}from"./app.2e99208e.js";const C=JSON.parse('{
 <span class="line"><span style="color:#A6ACCD;">  </span><span style="color:#F07178;">phoneNumber</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> phoneNumber</span><span style="color:#89DDFF;">.</span><span style="color:#A6ACCD;">value</span><span style="color:#89DDFF;">,</span></span>
 <span class="line"><span style="color:#89DDFF;">}</span><span style="color:#A6ACCD;">)</span></span>
 <span class="line"><span style="color:#676E95;font-style:italic;">// {</span></span>
-<span class="line"><span style="color:#676E95;font-style:italic;">//   &quot;token&quot;: &quot;Bearer 58f709ea-fd6d-45a0-85fa-889e93a5bc36&quot;,</span></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">//   &quot;token&quot;: &quot;Bearer 58f7*********************bc36&quot;,</span></span>
 <span class="line"><span style="color:#676E95;font-style:italic;">//   &quot;phoneNumber&quot;: &quot;13800138000&quot;</span></span>
 <span class="line"><span style="color:#676E95;font-style:italic;">// }</span></span>
 <span class="line"></span></code></pre></div><h2 id="autologin" tabindex="-1">autoLogin <a class="header-anchor" href="#autologin" aria-hidden="true">#</a></h2><p>\u81EA\u52A8\u767B\u5F55\uFF0C\u4F1A\u81EA\u52A8\u6267\u884C <code>getToken</code> -&gt; <code>login</code> -&gt; <code>register</code> \u7B49\u4E00\u7CFB\u5217\u6D41\u7A0B\u3002</p><p>\u5982\u679C\u5176\u4E2D\u6709\u4E00\u4E2A\u6D41\u7A0B\u6210\u529F\uFF0C\u5219\u63D0\u524D\u8FD4\u56DE\u767B\u5F55\u4FE1\u606F\u3002</p><p>\u5982\u679C\u4E09\u4E2A\u6D41\u7A0B\u90FD\u5931\u8D25\uFF0C\u5219\u8FD4\u56DE\u7A7A\u7684\u767B\u5F55\u4FE1\u606F\uFF0C\u53EF\u4EE5\u901A\u8FC7 <code>isOk</code> \u6765\u5224\u65AD\u662F\u5426\u6210\u529F\u3002</p><ul><li>Type Declarations:</li></ul><div class="language-ts"><span class="copy"></span><pre><code><span class="line"><span style="color:#676E95;font-style:italic;">/**</span></span>
@@ -131,7 +131,7 @@ import{_ as s,o as n,c as a,a as l}from"./app.2e99208e.js";const C=JSON.parse('{
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;username&quot;: &quot;13800138000&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;phoneNumber&quot;: &quot;13800138000&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;hasPassword&quot;: false,</span></span>
-<span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;token&quot;: &quot;Bearer f3e7d********************0ce9&quot;,</span></span>
+<span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;token&quot;: &quot;Bearer f3e7*********************0ce9&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;refreshToken&quot;: &quot;&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;expiresIn&quot;: 0,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;expiresIime&quot;: 0</span></span>
@@ -177,7 +177,7 @@ import{_ as s,o as n,c as a,a as l}from"./app.2e99208e.js";const C=JSON.parse('{
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;username&quot;: &quot;13800138000&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;phoneNumber&quot;: &quot;13800138000&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;hasPassword&quot;: false,</span></span>
-<span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;token&quot;: &quot;Bearer f3e7d********************0ce9&quot;,</span></span>
+<span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;token&quot;: &quot;Bearer f3e7*********************0ce9&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;refreshToken&quot;: &quot;&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;expiresIn&quot;: 0,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;expiresIime&quot;: 0</span></span>
@@ -245,7 +245,7 @@ import{_ as s,o as n,c as a,a as l}from"./app.2e99208e.js";const C=JSON.parse('{
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;username&quot;: &quot;13800138000&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;phoneNumber&quot;: &quot;13800138000&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;hasPassword&quot;: true,</span></span>
-<span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;token&quot;: &quot;Bearer f3e7d********************0ce9&quot;,</span></span>
+<span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;token&quot;: &quot;Bearer f3e7*********************0ce9&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;refreshToken&quot;: &quot;a5a8f144-6806-474c-bd7c-7cb7ca550b9f&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;expiresIn&quot;: 43199,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;expiresIime&quot;: 1658695221652</span></span>
@@ -314,7 +314,7 @@ import{_ as s,o as n,c as a,a as l}from"./app.2e99208e.js";const C=JSON.parse('{
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;username&quot;: &quot;13800138000&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;phoneNumber&quot;: &quot;13800138000&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;hasPassword&quot;: true,</span></span>
-<span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;token&quot;: &quot;Bearer f3e7d********************0ce9&quot;,</span></span>
+<span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;token&quot;: &quot;Bearer f3e7*********************0ce9&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;refreshToken&quot;: &quot;a5a8f144-6806-474c-bd7c-7cb7ca550b9f&quot;,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;expiresIn&quot;: 43199,</span></span>
 <span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">//     &quot;expiresIime&quot;: 1658695221652</span></span>
