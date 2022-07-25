@@ -1,0 +1,11 @@
+{
+  "name": "lunarxyz",
+  "description": "Documentation about @lunarxyz/core.",
+  "version": "0.0.0",
+  "repository": "https://github.com/lunarxyz/lunarxyz",
+  "author": "chengpeiquan <chengpeiquan@chengpeiquan.com>",
+  "scripts": {
+    "backup": "git add . && git commit -m \"chore: typo\" && git push"
+  },
+  "license": "MIT"
+}
