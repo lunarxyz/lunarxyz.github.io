@@ -103,6 +103,12 @@ import{_ as s,o as n,c as a,a as l}from"./app.7cf954f1.js";const C=JSON.parse('{
 <span class="line"><span style="color:#A6ACCD;">  </span><span style="color:#F07178;">queryToken</span><span style="color:#89DDFF;">?:</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">boolean</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#A6ACCD;">  </span><span style="color:#676E95;font-style:italic;">/**</span></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">   * \u662F\u5426\u67E5\u8BE2\u7528\u6237\u8BE6\u60C5</span></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">   * </span><span style="color:#89DDFF;font-style:italic;">@</span><span style="color:#C792EA;font-style:italic;">description</span><span style="color:#676E95;font-style:italic;"> \u4F1A\u4F20\u9012\u7ED9 \`getToken\` \uFF0C\u8BE6\u89C1\u8BE5 API \u7684\u8BF4\u660E</span></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">   */</span></span>
+<span class="line"><span style="color:#A6ACCD;">  </span><span style="color:#F07178;">queryInfo</span><span style="color:#89DDFF;">?:</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">boolean</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#A6ACCD;">  </span><span style="color:#676E95;font-style:italic;">/**</span></span>
 <span class="line"><span style="color:#676E95;font-style:italic;">   * \u7236\u7EA7 ID</span></span>
 <span class="line"><span style="color:#676E95;font-style:italic;">   * </span><span style="color:#89DDFF;font-style:italic;">@</span><span style="color:#C792EA;font-style:italic;">description</span><span style="color:#676E95;font-style:italic;"> \u5982\u679C\u6709\u62C9\u65B0\u9700\u6C42\uFF0C\u8FD9\u91CC\u4F20\u5165\u9080\u8BF7\u4EBA\u7684\u7528\u6237 ID</span></span>
 <span class="line"><span style="color:#676E95;font-style:italic;">   */</span></span>
