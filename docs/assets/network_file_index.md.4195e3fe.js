@@ -80,10 +80,14 @@ import{_ as s,o as n,c as a,a as l}from"./app.7cf954f1.js";const C=JSON.parse('{
 <span class="line"><span style="color:#676E95;font-style:italic;"> * \u4E0B\u8F7D\u9009\u9879</span></span>
 <span class="line"><span style="color:#676E95;font-style:italic;"> */</span></span>
 <span class="line"><span style="color:#C792EA;">interface</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">DownloadOptions</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">{</span></span>
-<span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">// \u7528\u6765\u4E0B\u8F7D\u7684\u6587\u4EF6 URL</span></span>
+<span class="line"><span style="color:#A6ACCD;">  </span><span style="color:#676E95;font-style:italic;">/**</span></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">   * \u7528\u6765\u4E0B\u8F7D\u7684\u6587\u4EF6 URL</span></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">   */</span></span>
 <span class="line"><span style="color:#A6ACCD;">  </span><span style="color:#F07178;">url</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">string</span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#89DDFF;">  </span><span style="color:#676E95;font-style:italic;">// \u4FDD\u5B58\u7684\u6587\u4EF6\u540D\uFF08\u5FC5\u987B\u5305\u542B\u6269\u5C55\u540D\uFF09</span></span>
+<span class="line"><span style="color:#A6ACCD;">  </span><span style="color:#676E95;font-style:italic;">/**</span></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">   * \u4FDD\u5B58\u7684\u6587\u4EF6\u540D\uFF08\u5FC5\u987B\u5305\u542B\u6269\u5C55\u540D\uFF09</span></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">   */</span></span>
 <span class="line"><span style="color:#A6ACCD;">  </span><span style="color:#F07178;">fileName</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">string</span></span>
 <span class="line"><span style="color:#89DDFF;">}</span></span>
 <span class="line"></span></code></pre></div><ul><li>Example:</li></ul><div class="language-ts"><span class="copy"></span><pre><code><span class="line"><span style="color:#89DDFF;font-style:italic;">import</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">{</span><span style="color:#F07178;"> </span><span style="color:#A6ACCD;">useFile</span><span style="color:#F07178;"> </span><span style="color:#89DDFF;">}</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;font-style:italic;">from</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">&#39;</span><span style="color:#C3E88D;">@lunarxyz/core</span><span style="color:#89DDFF;">&#39;</span></span>
