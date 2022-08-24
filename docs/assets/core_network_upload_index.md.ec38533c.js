@@ -1,3 +1,10 @@
+/**
+ * name: @lunarxyz/monorepo
+ * version: v0.36.0
+ * description: The JS-SDK of Lunarxyz App, provides simple APIs to operate.
+ * author: chengpeiquan <chengpeiquan@chengpeiquan.com>
+ * homepage: https://lunarxyz.github.io
+ */
 import{_ as l,c as p,f as a,a as s,o,r as e}from"./app.0bed755d.js";const E=JSON.parse('{"title":"useUpload","description":"","frontmatter":{},"headers":[{"level":2,"title":"Usage Tips","slug":"usage-tips"},{"level":2,"title":"progress","slug":"progress"},{"level":2,"title":"upload","slug":"upload"}],"relativePath":"core/network/upload/index.md"}'),t={name:"core/network/upload/index.md"},c=s(`<h1 id="useupload" tabindex="-1">useUpload <a class="header-anchor" href="#useupload" aria-hidden="true">#</a></h1><p>\u63D0\u4F9B\u6587\u4EF6\u4E0A\u4F20\u529F\u80FD\u548C\u4E0A\u4F20\u8FDB\u5EA6\u7B49\u76F8\u5173\u6570\u636E\u3002</p><h2 id="usage-tips" tabindex="-1">Usage Tips <a class="header-anchor" href="#usage-tips" aria-hidden="true">#</a></h2><p>\u4ECE <code>0.21.0</code> \u5F00\u59CB\uFF0C\u672C Hook \u65B0\u589E\u4E00\u4E2A\u5165\u53C2\u914D\u7F6E\uFF0C\u8FD9\u662F\u56E0\u4E3A <code>ali-oss</code> \u8FD9\u4E2A\u5305\u4E0D\u652F\u6301 Tree Shaking \uFF0C\u5982\u679C\u7531\u672C\u5305\u81EA\u5E26\u5B89\u88C5\uFF0C\u4F1A\u5F71\u54CD\u6CA1\u6709\u4F7F\u7528\u4E0A\u4F20\u529F\u80FD\u7684\u9879\u76EE\u8FDB\u884C\u4EE3\u7801\u4F18\u5316\u3002</p><p>\u56E0\u6B64\u628A\u8BE5 JS-SDK \u7684\u5B89\u88C5\u4EA4\u7ED9\u7528\u6237\u51B3\u5B9A\uFF0C\u5982\u679C\u9700\u8981\u7528\u5230\u4E0A\u4F20\u529F\u80FD\uFF0C\u9700\u8981\u5148\u5B89\u88C5\u963F\u91CC\u4E91 OSS JS-SDK \u3002</p><div class="language-bash"><button class="copy"></button><span class="lang">bash</span><pre><code><span class="line"><span style="color:#676E95;"># \u5FC5\u987B\u5B89\u88C5 OSS JS-SDK \u4E3B\u5305</span></span>
 <span class="line"><span style="color:#A6ACCD;">yarn add ali-oss</span></span>
 <span class="line"></span>

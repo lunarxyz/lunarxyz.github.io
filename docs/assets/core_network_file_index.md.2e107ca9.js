@@ -1,3 +1,10 @@
+/**
+ * name: @lunarxyz/monorepo
+ * version: v0.36.0
+ * description: The JS-SDK of Lunarxyz App, provides simple APIs to operate.
+ * author: chengpeiquan <chengpeiquan@chengpeiquan.com>
+ * homepage: https://lunarxyz.github.io
+ */
 import{_ as l,c as p,f as a,a as s,o,r as e}from"./app.0bed755d.js";const f=JSON.parse('{"title":"useFile","description":"","frontmatter":{},"headers":[{"level":2,"title":"fileSuffix","slug":"filesuffix"},{"level":2,"title":"imgInfo","slug":"imginfo"},{"level":2,"title":"videoInfo","slug":"videoinfo"}],"relativePath":"core/network/file/index.md"}'),c={name:"core/network/file/index.md"},t=s('<h1 id="usefile" tabindex="-1">useFile <a class="header-anchor" href="#usefile" aria-hidden="true">#</a></h1><p>\u63D0\u4F9B\u4E00\u4E9B\u6587\u4EF6\u76F8\u5173\u7684\u5904\u7406\u65B9\u6CD5\u3002</p><h2 id="filesuffix" tabindex="-1">fileSuffix <a class="header-anchor" href="#filesuffix" aria-hidden="true">#</a></h2><p>\u83B7\u53D6\u6587\u4EF6\u540E\u7F00\u6269\u5C55\u540D\uFF08\u4E0D\u5E26 <code>.</code> \u7B26\u53F7\uFF0C\u4F8B\u5982\u662F <code>jpg</code> \u800C\u4E0D\u662F <code>.jpg</code> \uFF09\u3002</p>',4),r=s(`<ul><li>Type Declarations:</li></ul><div class="language-ts"><button class="copy"></button><span class="lang">ts</span><pre><code><span class="line"><span style="color:#C792EA;">declare</span><span style="color:#A6ACCD;"> </span><span style="color:#C792EA;">function</span><span style="color:#A6ACCD;"> </span><span style="color:#82AAFF;">fileSuffix</span><span style="color:#89DDFF;">(</span></span>
 <span class="line"><span style="color:#A6ACCD;">  </span><span style="color:#676E95;">/**</span></span>
 <span class="line"><span style="color:#676E95;">   * \u6587\u4EF6\u540D\u79F0</span></span>

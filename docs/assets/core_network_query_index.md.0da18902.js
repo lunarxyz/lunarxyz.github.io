@@ -1,3 +1,10 @@
+/**
+ * name: @lunarxyz/monorepo
+ * version: v0.36.0
+ * description: The JS-SDK of Lunarxyz App, provides simple APIs to operate.
+ * author: chengpeiquan <chengpeiquan@chengpeiquan.com>
+ * homepage: https://lunarxyz.github.io
+ */
 import{_ as l,c as p,f as a,a as s,o,r as e}from"./app.0bed755d.js";const _=JSON.parse('{"title":"useQuery","description":"","frontmatter":{},"headers":[{"level":2,"title":"Type Declarations","slug":"type-declarations"},{"level":2,"title":"parseQuery","slug":"parsequery"},{"level":2,"title":"extractQueryInfo","slug":"extractqueryinfo"},{"level":2,"title":"getQuery","slug":"getquery"},{"level":2,"title":"stringifyQuery","slug":"stringifyquery"}],"relativePath":"core/network/query/index.md"}'),t={name:"core/network/query/index.md"},c=s(`<h1 id="usequery" tabindex="-1">useQuery <a class="header-anchor" href="#usequery" aria-hidden="true">#</a></h1><p>\u63D0\u4F9B URL Query \u53C2\u6570\u89E3\u6790\u65B9\u6CD5\u3002</p><h2 id="type-declarations" tabindex="-1">Type Declarations <a class="header-anchor" href="#type-declarations" aria-hidden="true">#</a></h2><p>\u672C\u7CFB\u5217\u65B9\u6CD5\u7528\u5230\u7684\u4E00\u4E9B\u516C\u5171\u7C7B\u578B\u3002</p><div class="language-ts"><button class="copy"></button><span class="lang">ts</span><pre><code><span class="line"><span style="color:#676E95;">/**</span></span>
 <span class="line"><span style="color:#676E95;"> * Query \u53C2\u6570\u89E3\u6790\u540E\u7684\u5BF9\u8C61\u7C7B\u578B</span></span>
 <span class="line"><span style="color:#676E95;"> */</span></span>

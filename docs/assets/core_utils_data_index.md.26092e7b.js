@@ -1,3 +1,10 @@
+/**
+ * name: @lunarxyz/monorepo
+ * version: v0.36.0
+ * description: The JS-SDK of Lunarxyz App, provides simple APIs to operate.
+ * author: chengpeiquan <chengpeiquan@chengpeiquan.com>
+ * homepage: https://lunarxyz.github.io
+ */
 import{_ as o,c as e,f as a,b as s,d as p,a as l,o as c,r as t}from"./app.0bed755d.js";const m=JSON.parse('{"title":"useDataType","description":"","frontmatter":{},"headers":[{"level":2,"title":"getCorrectType","slug":"getcorrecttype"},{"level":2,"title":"isObject","slug":"isobject"},{"level":2,"title":"hasKey","slug":"haskey"}],"relativePath":"core/utils/data/index.md"}'),r={name:"core/utils/data/index.md"},D=s("h1",{id:"usedatatype",tabindex:"-1"},[p("useDataType "),s("a",{class:"header-anchor",href:"#usedatatype","aria-hidden":"true"},"#")],-1),y=s("p",null,"\u63D0\u4F9B\u4E00\u4E9B\u6CA1\u6709\u539F\u751F API \u5B9E\u73B0\u7684\u7B80\u5316\u6570\u636E\u7C7B\u578B\u64CD\u4F5C\u65B9\u6CD5\u3002",-1),A=s("h2",{id:"getcorrecttype",tabindex:"-1"},[p("getCorrectType "),s("a",{class:"header-anchor",href:"#getcorrecttype","aria-hidden":"true"},"#")],-1),C=s("p",null,"\u83B7\u53D6\u6B63\u786E\u7684\u6570\u636E\u7C7B\u578B\u3002",-1),F=l(`<ul><li>Type Declarations:</li></ul><div class="language-ts"><button class="copy"></button><span class="lang">ts</span><pre><code><span class="line"><span style="color:#C792EA;">declare</span><span style="color:#A6ACCD;"> </span><span style="color:#C792EA;">function</span><span style="color:#A6ACCD;"> </span><span style="color:#82AAFF;">getCorrectType</span><span style="color:#89DDFF;">(</span></span>
 <span class="line"><span style="color:#A6ACCD;">  </span><span style="color:#676E95;">/**</span></span>
 <span class="line"><span style="color:#676E95;">   * \u8981\u67E5\u8BE2\u7684\u76EE\u6807</span></span>
