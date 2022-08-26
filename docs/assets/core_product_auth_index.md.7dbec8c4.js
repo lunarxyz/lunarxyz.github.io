@@ -1,6 +1,6 @@
 /**
  * name: @lunarxyz/monorepo
- * version: v0.36.0
+ * version: v0.37.0
  * description: The JS-SDK of Lunarxyz App, provides simple APIs to operate.
  * author: chengpeiquan <chengpeiquan@chengpeiquan.com>
  * homepage: https://lunarxyz.github.io
@@ -49,7 +49,7 @@ import{_ as l,c as p,f as a,a as s,o,r as e}from"./app.0bed755d.js";const f=JSON
 <span class="line"><span style="color:#A6ACCD;">  </span><span style="color:#676E95;">/**</span></span>
 <span class="line"><span style="color:#676E95;">   * \u5DF2\u5305\u542B\u51ED\u8BC1\u5934\u7684\u5B8C\u6574\u7528\u6237\u51ED\u8BC1</span></span>
 <span class="line"><span style="color:#676E95;">   */</span></span>
-<span class="line"><span style="color:#A6ACCD;">  </span><span style="color:#F07178;">token</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">Token</span><span style="color:#89DDFF;">&lt;</span><span style="color:#FFCB6B;">string</span><span style="color:#89DDFF;">&gt;</span></span>
+<span class="line"><span style="color:#A6ACCD;">  </span><span style="color:#F07178;">token</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">Token</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#A6ACCD;">  </span><span style="color:#676E95;">/**</span></span>
 <span class="line"><span style="color:#676E95;">   * \u7528\u6765\u5237\u65B0\u7528\u6237\u51ED\u8BC1\u6709\u6548\u671F\u7684\u51ED\u8BC1</span></span>
